@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalaba Masheke's Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Kalaba Masheke's Website</h1>
+        <p>A student portfolio for ICT251</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#hobbies">My Hobbies</a> |
+        <a href="#learning">My Learning Plan</a> |
+        <a href="#photos">My Photos</a> |
+        <a href="#media">My Media</a> |
+        <a href="#contact">Contact</a> |
+        <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">
+            Learn Web Development (MDN)
+        </a>
+    </nav>
+
+    <main>
+
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>
+                My name is Kalaba Masheke and I am a student studying computer science.
+                I am passionate about learning how websites are built and how they
+                work behind the scenes. I enjoy exploring new technologies, solving
+                problems step by step, and turning ideas into working pages. My goal
+                is to become confident in HTML, CSS and JavaScript so I can build
+                clean, accessible and mobile-friendly websites in the future.
+            </p>
+        </section>
+
+        <section id="hobbies" class="content-section">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Listening to music</li>
+                <li>Exploring new technology</li>
+            </ul>
+        </section>
+
+        <section id="learning" class="content-section">
+            <h2>My Learning Plan</h2>
+            <ol>
+                <li>Practise HTML structure for 30 minutes every day.</li>
+                <li>Complete one small CSS layout exercise each week.</li>
+                <li>Build a mini project at the end of every month.</li>
+            </ol>
+
+            <table>
+                <caption>Weekly Web Learning Plan</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML Basics</td>
+                        <td>Build a simple page</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS Styling</td>
+                        <td>Style a form</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Media &amp; Layout</td>
+                        <td>Add images and video</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="images/photo1.jpg" alt="Study dump,my handwritten HTML notes">
+                    <figcaption>note taking for HTML.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo2.jpg" alt="Practicing coding on my laptop">
+                    <figcaption>Practicing coding.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo3.jpg" alt="Me in my favourite VANS t-shirt">
+                    <figcaption>Me in my favourite VANS t-shirt.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+
+            <h3>Self-introduction video</h3>
+            <video controls width="480">
+                <source src="videos/intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>
+                <strong>Video summary:</strong> In this clip I say my name, my programme
+                and one web skill I hope to learn — building responsive layouts with CSS.
+            </p>
+
+            <h3>Hobby audio clip</h3>
+            <audio controls>
+                <source src="videos/voice.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>In this recording I describe one of my hobbies and why I enjoy it.</p>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <p>This form is for demonstration only — it does not send data.</p>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="topic">Topic:</label><br>
+                <input type="text" id="topic" name="topic"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kalaba Masheke. All photos are my own.</p>
+    </footer>
+
+</body>
+
+</html>

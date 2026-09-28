@@ -1,0 +1,176 @@
+/* ---------- Base ---------- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f9fbfd;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Header ---------- */
+header {
+    background-color: #1f3b57;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    background-color: #2c5282;
+    padding: 0.75rem 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: 600;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #ffe082;
+    text-decoration: underline;
+}
+
+/* ---------- Main content ---------- */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.content-section {
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #456;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+#hobbies {
+    background-color: #f1f6fa;
+}
+
+h2 {
+    color: #1f3b57;
+    border-bottom: 2px solid #cbd5e0;
+    padding-bottom: 0.25rem;
+}
+
+/* ---------- Table ---------- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #1f3b57;
+}
+
+th,
+td {
+    border: 1px solid #cbd5e0;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #e2e8f0;
+}
+
+/* ---------- Gallery ---------- */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery figure {
+    flex: 1 1 250px;
+    max-width: 300px;
+    margin: 0;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #cbd5e0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.25rem;
+}
+
+/* ---------- Media ---------- */
+video,
+audio {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+/* ---------- Form ---------- */
+form {
+    max-width: 500px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #a0aec0;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2c5282;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #1f3b57;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #1f3b57;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* ---------- Responsive ---------- */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
